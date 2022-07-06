@@ -192,6 +192,7 @@ a {
   .footer-sup {
     display: flex;
     align-items: flex-start;
+    justify-content: space-evenly;
   }
   .list-footer {
     padding: 0.7em;
