@@ -189,44 +189,23 @@ a {
   .main-logo-company img {
     margin: 3.5em;
   }
-.footer-sup{
+  .footer-sup {
     display: flex;
     align-items: flex-start;
-}
-.list-footer {
-  padding: 0.7em;
-}
-  
-  /* .footer-line {
-    display: flex;
-    justify-content: center;
   }
-  .footer-line li {
-    list-style: none;
-    padding: 0.6em;
+  .list-footer {
+    padding: 0.7em;
+  }
+  .footer-sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .footer-icons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    padding: 0.5em;
   }
-  .footer-icons img {
-    width: 1.6em;
-  }
-  .footer-icons a {
-    color: #000;
-  }
-  .footer-icons-sup,
-  .footer-icons-sub {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .footer-icons-sup span {
-    margin: 1em;
-  }
-  .footer-icons-sub i {
-    margin: 1em;
-  } */
 }
 
 /* 
