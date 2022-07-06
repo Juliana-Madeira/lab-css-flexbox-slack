@@ -6,167 +6,229 @@ paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-a{
-    color: blue;
+a {
+  color: blue;
 }
 
-@media (max-width: 768px){
-    .logotipo{
-     height: 5em;
-    }
-    .navbar{
-        display: flex;
-        justify-content: space-between;
-        /* background-size: cover; */
-    }
-    .navbar ul li{
-        display: none;
-    }
-    .hamburguer-menu{
-        background-color: transparent;
-        border: none;
-        margin-right: 0.9em;
-    }
-    .header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 9em;
-    }
-    .header p{
-        text-align: left;
-        padding: 0.9em;
-        color: #5b5e6d;
-    }
-    .email-input{
-        height: 2em;
-        width: 20em;
-        border: 1px solid #b9b9b9;
-        padding: 0.35em;
-        margin-top: 2em;
-        margin-bottom: 2em;
-    }
-    .btn-get-started{
-        height: 3.5em;
-        width: 21em;
-        border: 1px solid #4048af;
-        padding: 0.35em;
-        margin-bottom: 0.5em;
-        background-color: #4048af;
-        border-radius: 0.25em;
-        color: white;
-        cursor: pointer;
-    }
-    .header img{
-        width: 25em;
-        margin-top: 2em;
-    }
-    .main{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .main h2{
-        color: #2C303F;
-        padding: 1em;
-    }
-    .main p{
-        margin-bottom: 2em;
-    }
-    .main-good-company, .main-try-itfree{
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 2em;
-    }
-    .main-good-company img{
-        width: 12em;
-        margin-bottom: 5em;
-    }
-    .btn-discover-why{
-        height: 3.5em;
-        width: 21em;
-        border: 1px solid #4048af;
-        padding: 0.35em;
-        margin-bottom: 5em;
-        background-color: transparent;
-        border-radius: 0.25em;
-        color: #4048af;
-        font-weight: 600;
-        cursor: pointer;
-    }
-    .main-try-itfree p{
-        margin-top: -1.3em;
-        margin-bottom: -0.4em;
-    }
-    .list-footer{
-        display: flex;
-        flex-direction: column;
-        padding: 1.5em;
-    }
-    .list-footer li{
-        list-style: none;
-        padding: 0.9em;
-    }
-    .list-footer-sup_sub{
-        display: flex;
-        justify-content: center;
-    }
-    .footer-line{
-        display: flex;
-        justify-content: center;
-    }
-    .footer-line li{
-        list-style: none;
-        padding: 0.6em;
-    }
-    .footer-icons{
-        display: flex;
-        flex-direction: column;
-    }
-    .footer-icons img{
-        width: 1.6em;
-    }
-    .footer-icons a{
-        color: #000;
-    }
-    .footer-icons-sup, .footer-icons-sub{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .footer-icons-sup span{
-        margin: 1em;
-    }
-    .footer-icons-sub i{
-        margin: 1em;
-    }
- }
-
-
-
-.logotipo{
-    height: 100px;
-    margin-left: 10px;
+.logotipo {
+  height: 5em;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  color: #5b5e6d;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  background-size: cover;
+}
+.navbar ul li {
+  display: none;
+}
+.hamburguer-menu {
+  background-color: transparent;
+  border: none;
+  margin-right: 0.9em;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 9em;
+}
+.header div {
+  text-align: center;
+}
+.header p {
+  text-align: left;
+  padding: 0.9em;
+  color: #5b5e6d;
+}
+.email-input {
+  height: 2em;
+  width: 96%;
+  border: 1px solid #b9b9b9;
+  padding: 0.35em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.btn-get-started {
+  height: 3.5em;
+  width: 100%;
+  border: 1px solid #4048af;
+  padding: 0.35em;
+  margin-bottom: 0.5em;
+  background-color: #4048af;
+  border-radius: 0.25em;
+  color: white;
+  cursor: pointer;
+}
+.header img {
+  width: 25em;
+  margin-top: 2em;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main h2 {
+  color: #2c303f;
+  padding: 1em;
+}
+.main p {
+  margin-bottom: 2em;
+}
+.main-good-company,
+.main-try-itfree {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+.main-good-company img {
+  width: 12em;
+  margin-bottom: 5em;
+}
+.main-logo-company {
+  display: flex;
+  flex-direction: column;
+}
+.btn-discover-why {
+  height: 3.5em;
+  width: 21em;
+  border: 1px solid #4048af;
+  padding: 0.35em;
+  margin-bottom: 5em;
+  background-color: transparent;
+  border-radius: 0.25em;
+  color: #4048af;
+  font-weight: 600;
+  cursor: pointer;
+}
+.main-try-itfree p {
+  margin-top: -1.3em;
+  margin-bottom: -0.4em;
+}
+.list-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em;
+}
+.list-footer li {
+  list-style: none;
+  padding: 0.9em;
+}
+.list-footer-sup_sub {
+  display: flex;
+  justify-content: center;
+}
+.footer-line {
+  display: flex;
+  justify-content: center;
+}
+.footer-line li {
+  list-style: none;
+  padding: 0.6em;
+}
+.footer-icons {
+  display: flex;
+  flex-direction: column;
+}
+.footer-icons img {
+  width: 1.6em;
+}
+.footer-icons a {
+  color: #000;
+}
+.footer-icons-sup,
+.footer-icons-sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-icons-sup span {
+  margin: 1em;
+}
+.footer-icons-sub i {
+  margin: 1em;
 }
 
-.navbar{
+@media (min-width: 769px) and (max-width: 961px) {
+  .header h1 {
+    font-size: 3.5em;
+  }
+  .email-input {
+    width: 20em;
+  }
+  .btn-get-started {
+    height: 3em;
+    width: 10em;
+    margin-left: 0.5em;
+  }
+  .main h2 {
+    font-size: 2em;
+  }
+  .btn-discover-why {
+    width: 10em;
+    margin-bottom: 2em;
+  }
+  .main-logo-company {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
-    padding: 5px;
-    color: #5b5e6d;
-    position: fixed;
-    width: 100%;
-    background-color: white;
-    background-size: cover;
+  }
+  .main-logo-company img {
+    margin: 3.5em;
+  }
+.footer-sup{
+    display: flex;
+    align-items: flex-start;
 }
+.list-footer {
+  padding: 0.7em;
+}
+  
+  /* .footer-line {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-line li {
+    list-style: none;
+    padding: 0.6em;
+  }
+  .footer-icons {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-icons img {
+    width: 1.6em;
+  }
+  .footer-icons a {
+    color: #000;
+  }
+  .footer-icons-sup,
+  .footer-icons-sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-icons-sup span {
+    margin: 1em;
+  }
+  .footer-icons-sub i {
+    margin: 1em;
+  } */
+}
+
 /* 
 .list-menu {
     display: flex;
@@ -179,4 +241,3 @@ a{
     margin-right: 25px;
     font-size: 1.3em;
 } */
-
