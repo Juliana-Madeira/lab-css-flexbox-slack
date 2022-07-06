@@ -12,13 +12,8 @@ nav grey: #5b5e6d;
 }
 
 a{
-    text-decoration: none;
+    color: blue;
 }
-
-a:visited{
-    text-decoration: none;
-}
-
 
 @media (max-width: 768px){
     .logotipo{
@@ -83,7 +78,7 @@ a:visited{
     .main p{
         margin-bottom: 2em;
     }
-    .main-good-company{
+    .main-good-company, .main-try-itfree{
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -106,7 +101,52 @@ a:visited{
         font-weight: 600;
         cursor: pointer;
     }
-
+    .main-try-itfree p{
+        margin-top: -1.3em;
+        margin-bottom: -0.4em;
+    }
+    .list-footer{
+        display: flex;
+        flex-direction: column;
+        padding: 1.5em;
+    }
+    .list-footer li{
+        list-style: none;
+        padding: 0.9em;
+    }
+    .list-footer-sup_sub{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-line{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-line li{
+        list-style: none;
+        padding: 0.6em;
+    }
+    .footer-icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-icons img{
+        width: 1.6em;
+    }
+    .footer-icons a{
+        color: #000;
+    }
+    .footer-icons-sup, .footer-icons-sub{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-icons-sup span{
+        margin: 1em;
+    }
+    .footer-icons-sub i{
+        margin: 1em;
+    }
  }
 
 
