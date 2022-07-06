@@ -17,17 +17,17 @@
   </head>
 
   <body>
-    <nav>
-      <img src="./images/slack-logo.png" alt="slack_logo" />
-      <ul>
-        <li>Why Slack?</li>
-        <li>Pricing</li>
-        <li>About Us</li>
-        <li>Your Workspaces</li>
+    <nav class="navbar">
+      <img src="./images/slack-logo.png" alt="slack_logo" class="logotipo" />
+      <ul class="list-menu">
+        <li><a href="">Why Slack?</a></li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Your Workspaces</a></li>
       </ul>
+      <button class="hamburguer-menu"><img src="./images/menu-button.svg" alt=""></button>
     </nav>
-    <header>
-      <img src="./images/home_talking.png" alt="home_work_happening" />
+    <header class="header">
       <h1>Where Work Happens</h1>
       <p>
         When your team needs to kick off a project, hire a new employee, deploy
@@ -35,17 +35,19 @@
         an A/B test, plan your next office opening, and more, Slack has you
         covered.
       </p>
-      <button type="button" name="button">GET STARTED</button>
+      <input type="email" placeholder="E-mail address" class="email-input">
+      <button type="button" name="button" class="btn-get-started">GET STARTED</button>
       <p>Already using Slack? <a href="#">Sign in</a></p>
+      <img src="./images/home_talking.png" alt="home_work_happening" />
     </header>
-    <main>
-      <div>
+    <main class="main">
+      <div class="main-good-company">
         <h2>You're in good company</h2>
         <p>
           Millions of people around the world have already made Slack the place
           where their work happens.
         </p>
-        <button>DISCOVER WHY</button>
+        <button type="button" name="button" class="btn-discover-why">DISCOVER WHY</button>
         <img src="./images/airbnb-logo.png" alt="" />
         <img src="./images/capital-one-logo.png" alt="" />
         <img src="./images/harvard-logo.png" alt="" />
@@ -53,7 +55,7 @@
         <img src="./images/oracle-logo.png" alt="" />
         <img src="./images/ticketmaster-logo.png" alt="" />
       </div>
-      <div>
+      <!-- <div>
         <p>Try it for free</p>
         <p>Already using Slack? <a href="">Sign in</a></p>
         <button type="button" name="button">GET STARTED</button>
@@ -110,6 +112,6 @@
           <i class="fab fa-youtube"></i>
         </div>
       </div>
-    </footer>
+    </footer> --> 
   </body>
 </html>

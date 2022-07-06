@@ -5,3 +5,138 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px){
+    .logotipo{
+     height: 5em;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        /* background-size: cover; */
+    }
+    .navbar ul li{
+        display: none;
+    }
+    .hamburguer-menu{
+        background-color: transparent;
+        border: none;
+        margin-right: 0.9em;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 9em;
+    }
+    .header p{
+        text-align: left;
+        padding: 0.9em;
+        color: #5b5e6d;
+    }
+    .email-input{
+        height: 2em;
+        width: 20em;
+        border: 1px solid #b9b9b9;
+        padding: 0.35em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    .btn-get-started{
+        height: 3.5em;
+        width: 21em;
+        border: 1px solid #4048af;
+        padding: 0.35em;
+        margin-bottom: 0.5em;
+        background-color: #4048af;
+        border-radius: 0.25em;
+        color: white;
+        cursor: pointer;
+    }
+    .header img{
+        width: 25em;
+        margin-top: 2em;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main h2{
+        color: #2C303F;
+        padding: 1em;
+    }
+    .main p{
+        margin-bottom: 2em;
+    }
+    .main-good-company{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em;
+    }
+    .main-good-company img{
+        width: 12em;
+        margin-bottom: 5em;
+    }
+    .btn-discover-why{
+        height: 3.5em;
+        width: 21em;
+        border: 1px solid #4048af;
+        padding: 0.35em;
+        margin-bottom: 5em;
+        background-color: transparent;
+        border-radius: 0.25em;
+        color: #4048af;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+ }
+
+
+
+.logotipo{
+    height: 100px;
+    margin-left: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    color: #5b5e6d;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    background-size: cover;
+}
+/* 
+.list-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list-menu li{
+    list-style: none;
+    margin-right: 25px;
+    font-size: 1.3em;
+} */
+
