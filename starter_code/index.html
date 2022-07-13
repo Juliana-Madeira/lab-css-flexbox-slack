@@ -4,14 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-    <!-- link the font awesome CDN -->
     <link
       href="https://use.fontawesome.com/releases/v5.0.1/css/all.css"
       rel="stylesheet"
     />
-
-    <!-- link your styles -->
     <link rel="stylesheet" href="./stylesheets/style.css" />
     <title>Where work happens | Slack</title>
   </head>
@@ -29,14 +25,16 @@
         <img src="./images/menu-button.svg" alt="button-hamburguer">
       </div>
     </nav>
-    <header class="header">
-      <h1>Where Work Happens</h1>
-      <p>
-        When your team needs to kick off a project, hire a new employee, deploy
-        some code, review a sales contract, finalize next year's budget, measure
-        an A/B test, plan your next office opening, and more, Slack has you
-        covered.
-      </p>
+     <header class="header">
+      <div class="header-text">
+        <h1>Where Work Happens</h1>
+        <p>
+          When your team needs to kick off a project, hire a new employee, deploy
+          some code, review a sales contract, finalize next year's budget, measure
+          an A/B test, plan your next office opening, and more, Slack has you
+          covered.
+        </p>
+      </div>
       <div class="register">
         <input type="email" placeholder="E-mail address" class="email-input">
         <button type="button" name="button" class="btn-get-started">GET STARTED</button>
@@ -54,17 +52,17 @@
         <button type="button" name="button" class="btn-discover-why">DISCOVER WHY</button>
         <div class="logos-company">
           <div class="logos-company-lef"><img src="./images/airbnb-logo.png" alt="" /></div>
-          <div class="logos-company-rig"><img src="./images/capital-one-logo.png" alt="" /></div>        
+          <div class="logos-company-rig dual"><img src="./images/capital-one-logo.png" alt="" /></div>        
           <div class="logos-company-lef"><img src="./images/harvard-logo.png" alt="" /></div>
-          <div class="logos-company-rig"><img src="./images/los-angeles-times-logo.png" alt="" /></div>      
-          <div class="logos-company-lef no-bottom"><img src="./images/oracle-logo.png" alt="" /></div>
+          <div class="logos-company-rig no-bottom"><img src="./images/los-angeles-times-logo.png" alt="" /></div>      
+          <div class="logos-company-lef no-bottom dual"><img src="./images/oracle-logo.png" alt="" /></div>
           <div class="logos-company-rig"><img src="./images/ticketmaster-logo.png" alt="" /></div>
         </div>
       </div>
       <div class="main-try-itfree">
           <div class="try-it-free-text">
             <h2>Try it for free</h2>
-            <p>Already using Slack? <a href="">Sign in</a></p>
+            <p class="sign-in">Already using Slack? <a href="#">Sign in</a></p>
           </div>
         <div class="register">
           <input type="email" placeholder="E-mail address" class="email-input">
@@ -72,7 +70,9 @@
         </div>
       </div>
     </main>
-    <footer class="footer">
+
+
+    <footer >
       <div class="menu-footer">
         <div class="menu-footer-logo">
           <img src="./images/iso-slack.png" alt=""/>
@@ -124,7 +124,7 @@
         </div>
         <div class="footer-icons">
           <div class="footer-language">
-            <img src="./images/us-flag.png" alt="" />
+            <img src="./images/us-flag.png" alt="language-flag" />
             <span>English (US)</span>
             <i class="fas fa-chevron-down"></i>
           </div>
